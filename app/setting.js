@@ -60,12 +60,11 @@ function Setting(props) {
     if (user==="null" || user===null|| user==="undefined") {
       toast.info('Please SignIn', {
         position: "top-right",
-        autoClose: 3000,
+        autoClose: 1000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
         draggable: true,
-        progress: undefined,
         theme: "light",
         });
       
